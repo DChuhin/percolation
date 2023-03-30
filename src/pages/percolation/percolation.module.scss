@@ -1,0 +1,36 @@
+@import "src/app/styles/colors";
+
+.PercolationPage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color;
+}
+
+.PercolationSidePanel {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PercolationGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+
+  .PercolationLine {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Site {
+    aspect-ratio: 1;
+    border: 1px solid black;
+  }
+}
+
+

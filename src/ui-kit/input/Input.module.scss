@@ -1,0 +1,17 @@
+@import "src/app/styles/colors";
+
+.InputBox {
+  width: 250px;
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid $neon-color;
+    color: $neon-color;
+    background-color: transparent;
+    font-family: "montserrat", sans-serif;
+    border-radius: 50px;
+    font-size: 1em;
+    outline: none;
+  }
+}

@@ -1,0 +1,9 @@
+@import "src/app/styles/colors";
+
+.HelloPage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color;
+}

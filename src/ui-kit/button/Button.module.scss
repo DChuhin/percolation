@@ -1,0 +1,19 @@
+@import "src/app/styles/colors";
+
+.Button {
+  width: 100%;
+  background-color: transparent;
+  border: 3px solid $neon-color;
+  font-family: "montserrat", sans-serif;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  color: $neon-color;
+  padding: 15px 60px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Button:hover {
+  box-shadow: 0 0 10px 0 $neon-color inset, 0 0 20px 2px $neon-color;
+}
